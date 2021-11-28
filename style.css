@@ -1,0 +1,79 @@
+main {
+    display : flex;
+    largura :  100 vw ;
+    altura :  100 vh ;
+    justificar-conteúdo : centro;
+    alinhar-itens : centro;
+  
+  }
+  
+  . container {
+    display : flex;
+    direção flexível : coluna;
+    fundo :  rgb ( 61 ,  88 ,  175 );
+    largura :  400 px ;
+    altura :  600 px ;
+    alinhar-itens : centro;
+    justify-content : espaço-uniformemente;
+    raio da borda :  20 px ;
+    sombra da caixa :  0  0  10 px  rgb ( 87 ,  87 ,  87 );
+  }
+  
+  . título {
+    display : flex;
+    justificar-conteúdo : centro;
+    alinhar-itens : centro;
+    largura :  100 % ;
+    altura :  50 px ;
+    fonte : negrito 2,5 rem serif;
+    borda inferior : preto sólido de 5 px ;
+    margem inferior :  20 px ;
+  }
+  
+  . input {
+    display : flex;
+    largura :  300 px ;
+    altura :  50 px ;
+    justify-content : espaço entre;
+    alinhar-itens : centro;
+  }
+  . input  input {
+    largura :  200 px ;
+    altura :  50 px ;
+    raio da borda :  5 px ;
+    fronteira : nenhum;
+    esboço :  0 ;
+    fonte : negrito 1.5 rem serif;
+    alinhamento de texto : centro;
+  }
+  
+  . etiqueta de entrada  {
+    fonte : negrito 1.5 rem serif;
+  }
+  
+  botão {
+    largura :  300 px ;
+    altura :  40 px ;
+    fonte : negrito 1.2 rem serif;
+    fundo :  # 000 ;
+    cor :  rgb ( 255 ,  255 ,  255 );
+    esboço : nenhum;
+    raio da borda :  5 px ;
+    cursor : ponteiro;
+  }
+  
+  . resultado {
+    display : flex;
+    margem superior :  20 px ;
+    alinhar-itens : centro;
+    largura :  300 px ;
+    altura :  150 px ;
+    raio da borda :  5 px ;
+    fonte : itálico 1.5 rem serif;
+    sombra da caixa :  0 px  0 px  10 px preta;
+    fundo :  # 000 ;
+    cor :  rgb ( 255 ,  255 ,  255 );
+    preenchimento :  20 px ;
+    dimensionamento da caixa : caixa de borda;
+    seleção do usuário : nenhum;
+  }
